@@ -16,7 +16,7 @@ For standarized amount
 
 For time differnce
 
-![Distrbution plot for time difference](https://github.com/theBlockchainMystic/sybilsweep/blob/main/time_diff.jpg "time difference")
+![Distrbution plot for time difference](https://github.com/theBlockchainMystic/sybilsweep/blob/main/time_diff_box.png "time difference")
 
 Standardizing the amount column ensures that all amounts are in the same unit (e.g. all amounts are in BTC, or all amounts are in ETH), which makes it easier to compare and analyze the data. Without standardizing, it would be difficult to compare transactions that are denominated in different tokens because the value of each token can fluctuate over time.
 
