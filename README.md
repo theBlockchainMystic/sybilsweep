@@ -12,9 +12,7 @@ Standardizing the amount column based on the token and calculating the time diff
 
 For standarized amount
 
-
-![Distrbution plot for standarized amount](https://github.com/theBlockchainMystic/sybilsweep/blob/main/ss_amount.jpg) "standarized amount")
-
+![Distrbution plot for standarized amount](https://github.com/theBlockchainMystic/sybilsweep/blob/main/ss_amount.jpg "standarized amount")
 
 For time differnce
 
