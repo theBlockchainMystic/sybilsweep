@@ -24,6 +24,7 @@ Training machine learning models for anomaly detection is important because it a
 Isolation Forest is based on the decision tree algorithm and uses the concept of isolation to identify anomalies. This algorithm can identify anomalies by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature, and this way it can isolate the observations which are different from the rest of the observations.
 
 Robust Covariance is an algorithm that is robust to outliers, it can estimate the covariance matrix in the presence of outliers, it's an alternative to the traditional MLE algorithm, which is sensitive to outliers. This algorithm can be used to detect the presence of sybils by identifying patterns in the data that deviate from the norm.
+
 ![Outlier detection across models](./Oulier ratio.png "Outlier detection")
 
 It's important to note that using multiple machine learning models to detect sybils can increase the accuracy of the detection, as different models can identify different patterns in the data.
