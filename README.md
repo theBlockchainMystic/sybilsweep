@@ -4,6 +4,13 @@ docker run -d -p 5000:5000 sybil-docker
 
 ## Steps involved in the Exploratory Data Analysis of the Fantom and Unicef voting data
 
+### Inital observation on transaction amount on u_grant data
+The transaction amount observed huge hikes near last month
+
+![amount over time ETH](https://github.com/theBlockchainMystic/sybilsweep/blob/main/amount%20transacted%20over%20time%20eth.png "ETH amount")
+
+![amount over time DAI](https://github.com/theBlockchainMystic/sybilsweep/blob/main/amount%20transacted%20over%20time%20dai.png "DAI amount")
+
 Step 1: Standardizing the amount column based on the token, and calculating the time difference between transactions for a destination wallet paid in respective tokens.
 
 Standardizing the amount column based on the token and calculating the time difference between transactions for a destination wallet paid in respective tokens is important because it allows for more accurate analysis of cryptocurrency transactions.
