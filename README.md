@@ -1,11 +1,18 @@
+### Docker build and run commands
 docker build --tag sybil-docker .
 docker run -d -p 5000:5000 sybil-docker
 
-Steps involved in the Exploratory Data Analysis of the Fantom and Unicef voting data
+## Steps involved in the Exploratory Data Analysis of the Fantom and Unicef voting data
 
 Step 1: Standardizing the amount column based on the token, and calculating the time difference between transactions for a destination wallet paid in respective tokens.
 
 Standardizing the amount column based on the token and calculating the time difference between transactions for a destination wallet paid in respective tokens is important because it allows for more accurate analysis of cryptocurrency transactions.
+
+### Distrbution plot for standarized amount and time difference 
+
+![Distrbution plot for standarized amount]((https://github.com/theBlockchainMystic/sybilsweep/blob/main/ss_amount.jpg) "standarized amount")
+
+![Distrbution plot for time difference](https://github.com/theBlockchainMystic/sybilsweep/blob/main/time_diff.jpg "time difference")
 
 Standardizing the amount column ensures that all amounts are in the same unit (e.g. all amounts are in BTC, or all amounts are in ETH), which makes it easier to compare and analyze the data. Without standardizing, it would be difficult to compare transactions that are denominated in different tokens because the value of each token can fluctuate over time.
 
