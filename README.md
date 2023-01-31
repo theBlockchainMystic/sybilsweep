@@ -28,6 +28,10 @@ Step 2: Visualizing the standardized amount and time difference using boxplots.
 
 Visualizing the standardized amount and time difference using boxplots is important because it allows for the detection of outliers and anomalies in the data, which can indicate suspicious or fraudulent activity. Boxplots also provide a clear and easy-to-understand representation of the distribution of the data, making it easier to identify patterns and trends. Additionally, boxplots can help to identify the average and median values of the data, which can be useful in determining normal behavior. Overall, visualizing the data in this way can aid in detecting and analyzing potential issues, and can provide valuable insights for further investigation.
 
+![Box plot for standarized amount](https://github.com/theBlockchainMystic/sybilsweep/blob/main/ss_amount_box.png "standarized amount")
+
+![Box plot for time difference](https://github.com/theBlockchainMystic/sybilsweep/blob/main/time_diff_box.png "time difference")
+
 Step 3: Training two machine learning models for anomaly detection: Isolation Forest and Robust Covariance.
 
 Training machine learning models for anomaly detection is important because it allows you to identify patterns in your data that deviate from the norm, which may indicate the presence of sybils. The Isolation Forest and Robust Covariance algorithms are both commonly used for anomaly detection and can help identify sybils by detecting patterns in the standardized amount and time difference data.
